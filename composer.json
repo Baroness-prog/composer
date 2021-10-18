@@ -1,5 +1,10 @@
 {
     "name": "aurelien/composer",
     "description": "quete",
+     "autoload": {
+        "psr-4": {
+            "aurelien\\composer\\": "src/"
+        }
+    },
     "require": {}
 }
